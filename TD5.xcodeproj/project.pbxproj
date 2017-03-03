@@ -14,6 +14,10 @@
 		4D0D45961E5B1A79005BC5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0D45941E5B1A79005BC5A1 /* LaunchScreen.storyboard */; };
 		4D0D45A11E5B1A79005BC5A1 /* TD5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D45A01E5B1A79005BC5A1 /* TD5Tests.swift */; };
 		4D0D45AC1E5B1A79005BC5A1 /* TD5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D45AB1E5B1A79005BC5A1 /* TD5UITests.swift */; };
+		4D0D45BA1E5B1E2A005BC5A1 /* POI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D45B91E5B1E2A005BC5A1 /* POI.swift */; };
+		4D0D45BC1E5B294D005BC5A1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D45BB1E5B294D005BC5A1 /* MapViewController.swift */; };
+		4DFB24991E67129100CC614C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB24981E67129100CC614C /* DetailsViewController.swift */; };
+		C5EFDC7887D75B94297BF714 /* Pods_TD5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5EBF817EB167879FB72108 /* Pods_TD5.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,13 @@
 		4D0D45A71E5B1A79005BC5A1 /* TD5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TD5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0D45AB1E5B1A79005BC5A1 /* TD5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TD5UITests.swift; sourceTree = "<group>"; };
 		4D0D45AD1E5B1A79005BC5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0D45B91E5B1E2A005BC5A1 /* POI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POI.swift; sourceTree = "<group>"; };
+		4D0D45BB1E5B294D005BC5A1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4D2DD7331E646A3400784B9E /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		4DFB24981E67129100CC614C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		6C5450E4A3E948FEE0C59299 /* Pods-TD5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TD5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TD5/Pods-TD5.debug.xcconfig"; sourceTree = "<group>"; };
+		CB5EBF817EB167879FB72108 /* Pods_TD5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TD5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10D98D80C6C4F6FC1429F2B /* Pods-TD5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TD5.release.xcconfig"; path = "Pods/Target Support Files/Pods-TD5/Pods-TD5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5EFDC7887D75B94297BF714 /* Pods_TD5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,8 @@
 				4D0D459F1E5B1A79005BC5A1 /* TD5Tests */,
 				4D0D45AA1E5B1A79005BC5A1 /* TD5UITests */,
 				4D0D45891E5B1A79005BC5A1 /* Products */,
+				7D70D40581C1FB76B1AD12AE /* Pods */,
+				C606F97D40417048ED83A74E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +117,10 @@
 				4D0D45921E5B1A79005BC5A1 /* Assets.xcassets */,
 				4D0D45941E5B1A79005BC5A1 /* LaunchScreen.storyboard */,
 				4D0D45971E5B1A79005BC5A1 /* Info.plist */,
+				4D0D45B91E5B1E2A005BC5A1 /* POI.swift */,
+				4D0D45BB1E5B294D005BC5A1 /* MapViewController.swift */,
+				4D2DD7331E646A3400784B9E /* Location.gpx */,
+				4DFB24981E67129100CC614C /* DetailsViewController.swift */,
 			);
 			path = TD5;
 			sourceTree = "<group>";
@@ -125,6 +143,23 @@
 			path = TD5UITests;
 			sourceTree = "<group>";
 		};
+		7D70D40581C1FB76B1AD12AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C5450E4A3E948FEE0C59299 /* Pods-TD5.debug.xcconfig */,
+				E10D98D80C6C4F6FC1429F2B /* Pods-TD5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C606F97D40417048ED83A74E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB5EBF817EB167879FB72108 /* Pods_TD5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D0D45B01E5B1A79005BC5A1 /* Build configuration list for PBXNativeTarget "TD5" */;
 			buildPhases = (
+				5E006CFB507C45403EAB275D /* [CP] Check Pods Manifest.lock */,
 				4D0D45841E5B1A79005BC5A1 /* Sources */,
 				4D0D45851E5B1A79005BC5A1 /* Frameworks */,
 				4D0D45861E5B1A79005BC5A1 /* Resources */,
+				50F78806786FAE87339F2F62 /* [CP] Embed Pods Frameworks */,
+				D44297560DADE5B5BD345439 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,7 @@
 				TargetAttributes = {
 					4D0D45871E5B1A79005BC5A1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R4623D5HK6;
 						ProvisioningStyle = Automatic;
 					};
 					4D0D459B1E5B1A79005BC5A1 = {
@@ -254,13 +293,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50F78806786FAE87339F2F62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TD5/Pods-TD5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E006CFB507C45403EAB275D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D44297560DADE5B5BD345439 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TD5/Pods-TD5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D0D45841E5B1A79005BC5A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D0D458E1E5B1A79005BC5A1 /* ViewController.swift in Sources */,
+				4D0D45BA1E5B1E2A005BC5A1 /* POI.swift in Sources */,
 				4D0D458C1E5B1A79005BC5A1 /* AppDelegate.swift in Sources */,
+				4D0D45BC1E5B294D005BC5A1 /* MapViewController.swift in Sources */,
+				4DFB24991E67129100CC614C /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +500,10 @@
 		};
 		4D0D45B11E5B1A79005BC5A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5450E4A3E948FEE0C59299 /* Pods-TD5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R4623D5HK6;
 				INFOPLIST_FILE = TD5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TDCours.TD5;
@@ -422,8 +514,10 @@
 		};
 		4D0D45B21E5B1A79005BC5A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10D98D80C6C4F6FC1429F2B /* Pods-TD5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R4623D5HK6;
 				INFOPLIST_FILE = TD5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TDCours.TD5;
@@ -505,6 +599,7 @@
 				4D0D45B21E5B1A79005BC5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D0D45B31E5B1A79005BC5A1 /* Build configuration list for PBXNativeTarget "TD5Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +608,7 @@
 				4D0D45B51E5B1A79005BC5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D0D45B61E5B1A79005BC5A1 /* Build configuration list for PBXNativeTarget "TD5UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +617,7 @@
 				4D0D45B81E5B1A79005BC5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
