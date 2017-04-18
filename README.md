@@ -1,5 +1,12 @@
-<h1>Project using MkMapKit, Plan, SWXMLHash</h1>
+<h1>Cannes city tour</h1>
 <br>
+<h2> Libraries and components </h2>
+<ul>
+<li>MkMapKit</li>
+<li>Plan</li>
+<li>SWXMLHash</li>
+</ul>
+
 <h4>1: Select a place to get informations by clicking to the info button </h4>
 <img src="https://github.com/sofianeOuafir/iOSSwiftUniProjet5/blob/master/Capture%20d’écran%202017-03-06%20à%2014.48.59.png?raw=true">
 <h4>2: Get all informations you need (phone number, location)</h4>
